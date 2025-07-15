@@ -11,15 +11,12 @@
  */
 
 import { 
-  Plugin, 
   PluginAPI, 
-  PluginManifest, 
   PluginRegistryEntry, 
   PluginLoadResult,
   PluginEvent,
   PluginEventData,
-  PluginCategory,
-  PluginContext,
+  PluginCategory, 
   MessageContext,
   CustomButton,
   UIComponent,
@@ -27,7 +24,6 @@ import {
   WSHook,
   WSHookContext,
   PluginStats,
-  PluginDiscoveryResult,
   PluginOperationResult,
 } from "./plugin-types";
 import { ToolRegistry } from "../tools/tool-registry";

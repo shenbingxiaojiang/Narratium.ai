@@ -1,7 +1,5 @@
 /**
  * Plugin Discovery System - Simple Registry-Based
- * 
- * 只从 plugin-registry.json 文件读取插件信息，完全手动管理
  */
 
 import { 

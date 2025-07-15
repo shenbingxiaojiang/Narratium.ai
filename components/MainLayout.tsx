@@ -29,10 +29,10 @@ import SettingsDropdown from "@/components/SettingsDropdown";
 import LoginModal from "@/components/LoginModal";
 import AccountModal from "@/components/AccountModal";
 import MobileBottomNav from "@/components/MobileBottomNav";
-import "@/app/styles/fantasy-ui.css";
 import { PluginRegistry } from "@/lib/plugins/plugin-registry";
 import { PluginDiscovery } from "@/lib/plugins/plugin-discovery";
 import { ToolRegistry } from "@/lib/tools/tool-registry";
+import "@/app/styles/fantasy-ui.css";
 
 /**
  * Main layout wrapper component that manages the application's core structure

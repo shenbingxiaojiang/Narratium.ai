@@ -8,9 +8,6 @@
  * - Hot-reloading support
  */
 
-import { SimpleTool } from "../tools/base-tool";
-import { ToolType } from "../models/agent-model";
-
 export enum PluginCategory {
   TOOL = "tool",
   UI = "ui", 
